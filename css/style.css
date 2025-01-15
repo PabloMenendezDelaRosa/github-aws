@@ -1,0 +1,59 @@
+h1 {
+    color: #2977ff;
+    text-align: center;
+}
+
+#contenedor-tabla {
+    display: table;
+    box-sizing: border-box;
+}
+
+.contenedor-fila {
+    display: table-row;
+}
+
+.contenedor-fila > p {
+    border: 1px lightgray solid;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 200px;
+    display: table-cell;
+    text-align: center;
+}
+
+#contenedor-titulo > p {
+    background-color: #2977ff;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    color: #0e53cb;
+}
+
+.contenedor-funcion > *{
+    display: block;
+    margin-top: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+.boton-funcion {
+    width: 100%;
+    height: 25px;
+    background-color: #2977ff;
+    color:white;
+    border: none;
+}
+
+.boton-funcion:hover {
+    background-color: #5a96fe;
+    border: 1px grey solid;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
